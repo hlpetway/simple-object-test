@@ -1,0 +1,10 @@
+{
+  "name": "simple-object-test",
+  "description": "Creating a simple object to test",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
+}
