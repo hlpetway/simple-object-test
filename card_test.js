@@ -39,7 +39,3 @@ describe('Card object tests', function() {
     });
 
 });
-
-
-//how to connect this to our main.js doc? 
-//Is this why the error is Card variable not found?
