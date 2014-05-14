@@ -18,13 +18,28 @@ describe('Card object tests', function() {
             expect(card).to.have.property('suit');
         });
 
-        it('post title property matches beforeEach', function() {
+        it('card should have a rank property', function() {
+            expect(card).to.have.property('rank');
+        });
+
+        it('card suit property matches beforeEach', function() {
             expect(card.suit).to.equal('Heart');
         });
 
+        it('card rank property matches beforeEach', function() {
+            expect(card.rank).to.equal('Ace');
+        });
+    });
+
+    describe('card should have frozen properties', function() {
+
+        it('card should have frozen properties', function() {
+            expect(Object.isFrozen(card) === true);
+        });
     });
 
 });
+
 
 //how to connect this to our main.js doc? 
 //Is this why the error is Card variable not found?
