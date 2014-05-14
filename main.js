@@ -22,12 +22,12 @@ Card.prototype.showRank = function(card) {
     return this.rank;
 };
 
-//Add Cards
-
 module.exports.Card = Card;
 
 /* Test:
 1.) When we create a card it holds a suit and a rank.
 2.) When we hold a card it will not change suit and rank.
+
+--I might need to do more, to test for rank? what about them not changing?
 
 */
