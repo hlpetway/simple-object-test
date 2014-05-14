@@ -14,13 +14,10 @@ var Card = function(suit, rank) {
 Card.prototype.suit = '';
 Card.prototype.rank = '';
 
-//Show Card and Rank Methods
-Card.prototype.showSuit = function(card) {
-    return this.suit;
-};
-Card.prototype.showRank = function(card) {
-    return this.rank;
-};
+var card = new Card('Heart, Ace');
+
+var frozen = Object.freeze(this);
+assert(Object.isFrozen(this) === true);
 
 module.exports.Card = Card;
 
